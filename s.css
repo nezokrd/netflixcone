@@ -1,0 +1,78 @@
+
+body{
+
+height:6000px;
+width: 100%;
+margin: 0;
+padding: 0;
+/*
+background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+*/
+
+background: rgb(219, 175, 175) url("/pexels-дмитрий-трепольский-8566743.jpg") no-repeat top ;
+
+background-attachment: fixed;
+background-size:cover;
+z-index: 0;
+
+}
+
+.head{
+
+width: 1200px;
+margin: auto;/*لا تعمل بسبب البوسشن فلكس*/
+color:red;
+background-color: grey;
+
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+border:3px solid #FBA8A8;
+z-index: 2;
+position: fixed;
+right:227px;
+left:227px;
+
+}
+.s1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 3px solid red;
+  width: 500px;
+  color: gold;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  top: 200px;
+  z-index: 1;
+ 
+
+}
+
+.t1{
+  font-size: 50px;
+  color: yellow;
+   width: 50%;
+   margin: auto;
+   border: 3px solid red;
+   z-index: 1;
+   display:flex;
+   flex-direction: column;
+
+   position: relative;
+   top: 500px;
+   align-items: center;
+
+
+
+
+}
+
+
+
