@@ -12,7 +12,7 @@ background-color: #ffffff;
   background-position: right top;
 */
 
-background: rgb(219, 175, 175) url("pexels-дмитрий-трепольский-8566743.jpg") no-repeat top ;
+background: rgb(219, 175, 175) url("/pexels-дмитрий-трепольский-8566743.jpg") no-repeat top ;
 
 background-attachment: fixed;
 background-size:cover;
